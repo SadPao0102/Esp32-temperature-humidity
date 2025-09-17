@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start"
   },
   "dependencies": {
     "cors": "^2.8.5",
